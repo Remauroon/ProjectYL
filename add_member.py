@@ -2,7 +2,6 @@ from PyQt5.QtWidgets import QApplication, QTableWidgetItem, QTableWidget, QPushB
 from PyQt5.QtWidgets import QLineEdit, QLabel, QMainWindow, QDialog, QComboBox, QSpinBox
 import sys
 from PyQt5 import uic
-from PyQt5.QtCore import Qt
 import csv
 
 
@@ -38,6 +37,7 @@ class EnterInf(QDialog):
             writer.writerow([self.namedit.text(), self.surnamedit.text(), self.sex_select.currentText(),
                              birth, self.seriaedit.text(), self.passport_numedit.text(),
                              self.lineEdit.text(), self.phone_edit.text(), self.mail_edit.text(), fl])
+        self.close()
 
 
 if __name__ == '__main__':

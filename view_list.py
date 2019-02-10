@@ -5,6 +5,7 @@ from PyQt5 import uic
 from PyQt5.QtCore import Qt
 import csv
 
+
 PASSWORD = "projectYL"
 
 
@@ -126,7 +127,7 @@ class PasswordRequest(QDialog):
         self.initUi()
 
     def initUi(self):
-        self.setGeometry(500, 500, 230, 70)
+        self.setGeometry(820, 500, 230, 70)
         self.setWindowTitle('Enter password:')
         self.setWindowModality(Qt.ApplicationModal)
 

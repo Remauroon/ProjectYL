@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>352</width>
-    <height>211</height>
+    <width>348</width>
+    <height>131</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,21 +17,21 @@
    <widget class="QLabel" name="headbar">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>20</y>
-      <width>201</width>
+      <x>30</x>
+      <y>-10</y>
+      <width>291</width>
       <height>81</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;People&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;Data base&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="addmember">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>110</y>
+      <y>70</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -44,7 +44,7 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>110</y>
+      <y>70</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -59,7 +59,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>352</width>
+     <width>348</width>
      <height>21</height>
     </rect>
    </property>

@@ -2,8 +2,6 @@ from PyQt5.QtWidgets import QApplication, QTableWidgetItem, QTableWidget, QPushB
 from PyQt5.QtWidgets import QLineEdit, QLabel, QMainWindow, QDialog
 import sys
 from PyQt5 import uic
-from PyQt5.QtCore import Qt
-import csv
 import add_member, view_list
 
 
